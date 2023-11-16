@@ -1,0 +1,96 @@
+{
+    "_id" : ObjectId("65565541a40d884955d4182b"),
+    "Name" : "2021/22 5BHIF",
+    "Pruefung" : [
+        {
+            "_id" : ObjectId("000000000000000000000000"),
+            "Schueler" : "Max Mustermann",
+            "Fach" : {
+                "_id" : ObjectId("000000000000000000000000"),
+                "Diplomarbeit" : {
+                    "_id" : ObjectId("000000000000000000000000"),
+                    "Lehrer" : "GT"
+                },
+                "AngMath" : {
+                    "_id" : ObjectId("000000000000000000000000"),
+                    "Lehrer" : null,
+                    "Note" : null
+                },
+                "Englisch" : {
+                    "_id" : ObjectId("000000000000000000000000"),
+                    "Lehrer" : null,
+                    "Note" : null
+                },
+                "Deutsch" : {
+                    "_id" : ObjectId("000000000000000000000000"),
+                    "Lehrer" : null,
+                    "Note" : null
+                },
+                "Fachtheorie" : {
+                    "_id" : ObjectId("000000000000000000000000"),
+                    "Lehrer" : null,
+                    "fach" : "POS1",
+                    "Note" : NumberInt(0),
+                    "muedlich" : false
+                },
+                "Schwerpunktfach" : {
+                    "_id" : ObjectId("000000000000000000000000"),
+                    "Lehrer" : "HIK",
+                    "Fach" : "DBI",
+                    "muedlich" : true
+                },
+                "Wahlpunktfach" : {
+                    "_id" : ObjectId("000000000000000000000000"),
+                    "Lehrer" : null,
+                    "Fach" : null,
+                    "muedlich" : false
+                }
+            }
+        },
+        {
+            "_id" : ObjectId("000000000000000000000000"),
+            "Schueler" : "David Ankenbrand",
+            "Fach" : {
+                "_id" : ObjectId("000000000000000000000000"),
+                "Diplomarbeit" : {
+                    "_id" : ObjectId("000000000000000000000000"),
+                    "Lehrer" : "OM"
+                },
+                "AngMath" : {
+                    "_id" : ObjectId("000000000000000000000000"),
+                    "Lehrer" : null,
+                    "Note" : null
+                },
+                "Englisch" : {
+                    "_id" : ObjectId("000000000000000000000000"),
+                    "Lehrer" : null,
+                    "Note" : null
+                },
+                "Deutsch" : {
+                    "_id" : ObjectId("000000000000000000000000"),
+                    "Lehrer" : null,
+                    "Note" : null
+                },
+                "Fachtheorie" : {
+                    "_id" : ObjectId("000000000000000000000000"),
+                    "Lehrer" : "SRM",
+                    "fach" : "POS1",
+                    "Note" : NumberInt(5),
+                    "muedlich" : false
+                },
+                "Schwerpunktfach" : {
+                    "_id" : ObjectId("000000000000000000000000"),
+                    "Lehrer" : "HY",
+                    "Fach" : "SYP1",
+                    "muedlich" : true
+                },
+                "Wahlpunktfach" : {
+                    "_id" : ObjectId("000000000000000000000000"),
+                    "Lehrer" : "CO",
+                    "Fach" : "NVS1",
+                    "muedlich" : true
+                }
+            }
+        }
+    ]
+}
